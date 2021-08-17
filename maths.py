@@ -64,4 +64,13 @@ def square_root(a):
 def cube(a):
     return a*a*a
 
-# print(sum(int(input()), int(input())))
+class calculator:
+    def sum(a,b):
+        return a+b
+    def difference(a,b):
+        return a-b
+    def ratio(a,b):
+        return a/b
+    def multiply(a,b):
+        return a*b
+calculator_object = calculator()
